@@ -1,0 +1,14 @@
+<!-- <?php $no=1; ?>
+                                            <?php foreach ($data_phonebook as $row) : ?>
+                                                <tr>
+                                                    <td><?= $no?></td>
+                                                    
+                                                    <td><?= $row->no_kontak ?></td>
+                                                    <td><?= $row->nama_kontak ?></td>
+                                                    <td>
+                                                        <!-- <a href="<?=base_url(phone/hapus_data);?>"></a> -->
+                                                        <!-- <a href="<?=base_url() ?>phone/hapus_data/<?=$row['no_kontak']; ?> " class="btn btn-danger"  onclick="return confirm('yakin dihapus !?') ">DELETE</a>  -->
+                                                    </td>
+                                                </tr>
+                                                <?php $no++; ?>
+                                            <?php endforeach; ?> -->
